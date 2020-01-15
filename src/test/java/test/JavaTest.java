@@ -9,7 +9,7 @@ public class JavaTest {
 	
 	@Test
 	public void search() {
-		System.setProperty("webdriver.chrome.driver", "driver/chromedriver");
+		System.setProperty("webdriver.chrome.driver", "driver/chromedriver.exe");
 		WebDriver driver;
 		driver = new ChromeDriver();
 		
